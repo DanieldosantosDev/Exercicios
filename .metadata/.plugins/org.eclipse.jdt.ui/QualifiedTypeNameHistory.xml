@@ -7,4 +7,14 @@
     <fullyQualifiedTypeName name="com.sun.java_cup.internal.runtime.Scanner"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="java.util.Set"/>
+    <fullyQualifiedTypeName name="java.util.HashSet"/>
+    <fullyQualifiedTypeName name="oo.composicao.Curso"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="oo.heranca.Jogador"/>
+    <fullyQualifiedTypeName name="oo.heranca.Direcao"/>
+    <fullyQualifiedTypeName name="javax.swing.SwingConstants"/>
+    <fullyQualifiedTypeName name="oo.heranca.Monstro"/>
 </qualifiedTypeNameHistroy>
