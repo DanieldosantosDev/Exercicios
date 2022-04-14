@@ -3,16 +3,16 @@ package Controle;
 import java.util.Scanner;
 
 public class desafioDiaSemana {
-	
+
 	public static void main(String[] args) {
-		
-		Scanner entrada = new Scanner (System.in);
-		
+
+		Scanner entrada = new Scanner(System.in);
+
 		System.out.println("digite o nome do dia");
-		
+
 		String dia = entrada.next();
-		
-		if(dia.equalsIgnoreCase("domingo")) {
+
+		if (dia.equalsIgnoreCase("domingo")) {
 			System.out.println(1);
 		} else if ("segunda".equalsIgnoreCase(dia)) {
 			System.out.println(2);
@@ -27,7 +27,7 @@ public class desafioDiaSemana {
 		} else if ("sabado".equalsIgnoreCase(dia)) {
 			System.out.println(7);
 		} else {
-				System.out.println("Dia invalido");
+			System.out.println("Dia invalido");
 		}
 		entrada.close();
 	}

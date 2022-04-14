@@ -3,15 +3,15 @@ package Controle;
 import java.util.Scanner;
 
 public class Switchcombreak {
-	
+
 	public static void main(String[] args) {
-		Scanner  entrada = new Scanner(System.in);
-	
+		Scanner entrada = new Scanner(System.in);
+
 		String conceito = "";
 		System.out.println("informe a nota");
 		int nota = entrada.nextInt();
-		
-		switch(nota) {
+
+		switch (nota) {
 		case 10:
 			conceito = "A";
 			break;
@@ -19,8 +19,7 @@ public class Switchcombreak {
 			conceito = "A";
 			break;
 		}
-			System.out.println("Conceito é" + conceito);
-			entrada.close();
-		}
+		System.out.println("Conceito é" + conceito);
+		entrada.close();
 	}
-
+}

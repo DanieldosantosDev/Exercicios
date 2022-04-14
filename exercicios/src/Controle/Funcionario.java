@@ -1,14 +1,14 @@
 package Controle;
 
 public class Funcionario {
-	
+
 	public static void main(String[] args) {
 		int i, soma = 0;
-		for (i = 1;i <=5;i++) {
-			if (i== 4)
+		for (i = 1; i <= 5; i++) {
+			if (i == 4)
 				continue;
-			soma +=i;
-			}
+			soma += i;
+		}
 		System.out.println(soma);
 	}
 }

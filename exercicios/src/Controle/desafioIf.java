@@ -5,7 +5,7 @@ public class desafioIf {
 		double nota = 1.3;
 
 		if (nota >= 9.0)
-			
+
 		{
 			System.out.println("Quadro honra");
 			System.out.println("Você é fera!!!");
