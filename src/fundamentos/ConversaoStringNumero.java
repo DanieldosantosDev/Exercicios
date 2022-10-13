@@ -4,8 +4,8 @@ import javax.swing.JOptionPane;
 
 public class ConversaoStringNumero {
 	public static void main(String[] args) {
-		String valor1 = JOptionPane.showInputDialog("digite o primeiro número");
-		String valor2 = JOptionPane.showInputDialog("digite o segundo número");
+		String valor1 = JOptionPane.showInputDialog("digite o primeiro nÃºmero");
+		String valor2 = JOptionPane.showInputDialog("digite o segundo nÃºmero");
 
 		System.out.println(valor1 + valor2);
 
@@ -13,8 +13,8 @@ public class ConversaoStringNumero {
 		double numero2 = Double.parseDouble(valor2);
 
 		double soma = numero1 + numero2;
-		System.out.println("soma é " + soma);
-		System.out.println("média é " + soma / 2);
+		System.out.println("soma Ã© " + soma);
+		System.out.println("mÃ©dia Ã© " + soma / 2);
 
 	}
 

@@ -11,8 +11,8 @@ public class Console {
 		System.out.println("dia!");
 
 		System.out.printf("Megasena: %d %d %d %d %d %d %n", 1, 2, 3, 4, 5, 6);
-		System.out.printf("Sal·rio: %.1f%n", 1234.5678);
-		System.out.printf("Nome: %s%n", "Jo„o");
+		System.out.printf("Sal√°rio: %.1f%n", 1234.5678);
+		System.out.printf("Nome: %s%n", "Jo√£o");
 
 		Scanner entrada = new Scanner(System.in);
 

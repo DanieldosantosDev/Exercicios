@@ -5,14 +5,14 @@ public class ternario {
 	public static void main(String[] args) {
 
 		double media = 8.6;
-		String resultadoFinal = media >= 7.0 ? "aprovado." : "em recuperação.";
-		System.out.println("O aluno está " + resultadoFinal);
+		String resultadoFinal = media >= 7.0 ? "aprovado." : "em recuperaï¿½ï¿½o.";
+		System.out.println("O aluno estÃ¡ " + resultadoFinal);
 
 		double nota = 9.9;
 		boolean bomComportamento = true;
 		boolean passouPorMedia = nota >= 7;
 		boolean temDesconto = bomComportamento && passouPorMedia;
-		String resultado = temDesconto ? "Sim." : "Não.";
+		String resultado = temDesconto ? "Sim." : "Nï¿½o.";
 
 		System.out.printf("Tem desconto? %s", resultado);
 	}
