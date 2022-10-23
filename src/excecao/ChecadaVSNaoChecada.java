@@ -1,4 +1,4 @@
-package Excecao;
+package excecao;
 
 public class ChecadaVSNaoChecada {
 	public static void main(String[] args) {
