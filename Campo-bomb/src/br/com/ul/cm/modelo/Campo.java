@@ -21,20 +21,20 @@ public class Campo {
 
 	}
 
-	boolean adicionarVizinho(Campo vizinho) {
-		boolean linhaDiferente = linha != vizinho.linha;
-		boolean colunaDiferente = coluna != vizinho.coluna;
+	boolean adicionarVizinho(Campo c2) {
+		boolean linhaDiferente = linha != c2.linha;
+		boolean colunaDiferente = coluna != c2.coluna;
 		boolean diagonal = linhaDiferente && colunaDiferente;
 		
-		int deltaLinha = Math.abs(linha - vizinho.linha);
-		int deltaColuna = Math.abs(coluna - vizinho.coluna);
+		int deltaLinha = Math.abs(linha - c2.linha);
+		int deltaColuna = Math.abs(coluna - c2.coluna);
 		int deltaGeral = deltaColuna + deltaLinha;
 		
 		if(deltaGeral == 1 && !diagonal) {
-			vizinhos.add(vizinho);
+			vizinhos.add(c2);
 		return true;
 		} else if(deltaGeral == 2 && diagonal) {
-			vizinhos.add(vizinho);
+			vizinhos.add(c2);
 		return true;
 	} else { 
 		return false;
@@ -66,6 +66,9 @@ public class Campo {
 	}
 	void minar() {
 		minado = true;
+	}
+	public boolean isMinado() {
+		return minado;
 	}
 	public boolean isMarcado() {
 		return marcado;
@@ -112,6 +115,7 @@ public class Campo {
 		else {
 			return "?";
 		}
+	
 	}
 }
 
