@@ -12375,3 +12375,50 @@ org.eclipse.equinox.p2.core.ProvisionException: No repository found at https://d
 	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
 !SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-12-28 04:51:25.031
 !MESSAGE No repository found at https://download.eclipse.org/releases/2022-12/202211181000.
+
+!ENTRY org.eclipse.egit.core 4 0 2022-12-28 05:01:33.214
+!MESSAGE An exception occurred during push on URI https://github.com/DanieldosantosDev/Exercicios: https://github.com/DanieldosantosDev/Exercicios: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/DanieldosantosDev/Exercicios: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:138)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1537)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2022-12-28 05:01:33.216
+!MESSAGE Can't connect to any repository: https://github.com/DanieldosantosDev/Exercicios (https://github.com/DanieldosantosDev/Exercicios: not authorized)
+
+!ENTRY org.eclipse.egit.core 4 0 2022-12-28 05:03:25.300
+!MESSAGE An exception occurred during push on URI https://github.com/DanieldosantosDev/Exercicios: https://github.com/DanieldosantosDev/Exercicios: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/DanieldosantosDev/Exercicios: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:138)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1537)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.ConfirmationPage$2.run(ConfirmationPage.java:204)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:122)
+
+!ENTRY org.eclipse.egit.core 4 0 2022-12-28 05:04:22.487
+!MESSAGE An exception occurred during push on URI https://github.com/DanieldosantosDev/Exercicios: https://github.com/DanieldosantosDev/Exercicios: not authorized
+!STACK 0
+org.eclipse.jgit.errors.TransportException: https://github.com/DanieldosantosDev/Exercicios: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:685)
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:627)
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541)
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:138)
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1537)
+	at org.eclipse.egit.core.op.PushOperation.run(PushOperation.java:269)
+	at org.eclipse.egit.ui.internal.push.PushJob.performJob(PushJob.java:86)
+	at org.eclipse.egit.ui.internal.jobs.RepositoryJob.run(RepositoryJob.java:59)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:63)
+
+!ENTRY org.eclipse.egit.ui 4 0 2022-12-28 05:04:22.488
+!MESSAGE Can't connect to any repository: https://github.com/DanieldosantosDev/Exercicios (https://github.com/DanieldosantosDev/Exercicios: not authorized)
