@@ -2,9 +2,7 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.util.function.Consumer"/>
     <fullyQualifiedTypeName name="java.util.function.UnaryOperator"/>
-    <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.function.Function"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.util.function.DoubleBinaryOperator"/>
     <fullyQualifiedTypeName name="java.util.function.BiFunction"/>
     <fullyQualifiedTypeName name="java.util.function.BinaryOperator"/>
@@ -18,12 +16,20 @@
     <fullyQualifiedTypeName name="excecao.personalizadaA.StringVaziaException"/>
     <fullyQualifiedTypeName name="excecao.personalizadaA.NumeroForaIntervaloException"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.BeforeEach"/>
-    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
-    <fullyQualifiedTypeName name="br.com.ul.cm.Excecao.ExplosãoException"/>
     <fullyQualifiedTypeName name="org.junit.jupiter.api.Test"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.function.Predicate"/>
     <fullyQualifiedTypeName name="br.com.ul.cm.modelo.Tabuleiro"/>
     <fullyQualifiedTypeName name="java.lang.StringBuilder"/>
+    <fullyQualifiedTypeName name="br.com.ul.cm.visao.TabuleiroConsole"/>
+    <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="br.com.ul.cm.Excecao.ExplosãoException"/>
+    <fullyQualifiedTypeName name="br.com.ul.cm.Excecao.SairException"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
+    <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
+    <fullyQualifiedTypeName name="java.util.Iterator"/>
+    <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
 </qualifiedTypeNameHistroy>

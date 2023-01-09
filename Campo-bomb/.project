@@ -3,6 +3,7 @@
 	<name>Campo-bomb</name>
 	<comment></comment>
 	<projects>
+		<project>exercicios</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
