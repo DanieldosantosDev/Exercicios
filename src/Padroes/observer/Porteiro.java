@@ -11,24 +11,29 @@ public class Porteiro {
     private List<ObservadorChegadaAniversariante> observadores
             = new ArrayList<>();
 
-    public void registraObservador(ObservadorChegadaAniversariante observador){
+    public void registraObservador(ObservadorChegadaAniversariante observador) {
         observadores.add(observador);
     }
-    public void monitorar{
+
+    public void monitorar() {
         Scanner entrada = new Scanner(System.in);
-        String valor ="";
+        String valor = "";
         while (!"sair".equalsIgnoreCase(valor)) {
-    System.out.println("Aniversariante chegou? ");
-        valor =entrada.nextLine();
-        if("sim".equalsIgnoreCase(valor){
-            //Criar evento
-                EventoChegadaAniversariante evento ==
-                new EventoChegadaAniversariante(new Date());
-            // notificar observadores
+            System.out.println("Aniversariante chegou? ");
+            valor = entrada.nextLine();
+            if ("sim".equalsIgnoreCase(valor)) {
+                //Criar evento
+                EventoChegadaAniversariante evento =
+                        new EventoChegadaAniversariante(new Date());
+                // notificar observadores
                 observadores.stream()
                         .forEach(o -> o.chegou(evento));
-        } else  {
-        } System.out.println("Alarme falso");
+                valor = "sair";
+            } else {
+                System.out.println("Alarme falso");
+            }
         }
+        entrada.close();
+    }
 }
-}
+
